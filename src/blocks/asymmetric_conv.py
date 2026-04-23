@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 
-# Fig3(a) - Asymmetric convolution pair
 class AsymmetricConv(nn.Module):
     def __init__(self, in_ch, out_ch, k=3):
         super().__init__()
